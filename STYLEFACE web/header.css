@@ -1,0 +1,43 @@
+/* ШАПКА САЙТА */
+
+/* Логотип, поисковая строка и иконки */
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 100px;
+}
+
+.search {
+	height: 60%;
+	margin: auto 0;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	outline: none; /* Убирает подсветку при нажатии */
+}
+
+.menu {
+	display: flex;
+	justify-content: flex-start;
+}
+
+.icon {
+	width: 40px; /* Иконки пнгшные, разрабраться как подрубить svg */
+	padding: 0 7px;
+}
+
+/* Меню */
+
+.navigation {
+	list-style-type: none;
+	font-size: 18px;
+	color: white;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center; /* Выравнивание по вертикали */
+	padding: 8px 100px;
+	margin: 0px;
+	column-gap: 21px;
+	background-color: #303032;
+}
